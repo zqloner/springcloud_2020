@@ -12,4 +12,4 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml            #mapper位置
-  type-aliases-package: com.zq.springclud.entities        #实体位置
+  type-aliases-package: com.zq.springcloud.entities        #实体位置

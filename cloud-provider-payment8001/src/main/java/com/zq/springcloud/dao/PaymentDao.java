@@ -1,6 +1,6 @@
-package com.zq.springclud.dao;
+package com.zq.springcloud.dao;
 
-import com.zq.springclud.entities.Payment;
+import com.zq.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

@@ -1,8 +1,8 @@
-package com.zq.springclud.service.impl;
+package com.zq.springcloud.service.impl;
 
-import com.zq.springclud.dao.PaymentDao;
-import com.zq.springclud.entities.Payment;
-import com.zq.springclud.service.PaymentService;
+import com.zq.springcloud.entities.Payment;
+import com.zq.springcloud.dao.PaymentDao;
+import com.zq.springcloud.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

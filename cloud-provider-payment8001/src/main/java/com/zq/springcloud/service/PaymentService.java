@@ -1,6 +1,7 @@
-package com.zq.springclud.service;
+package com.zq.springcloud.service;
 
-import com.zq.springclud.entities.Payment;
+
+import com.zq.springcloud.entities.Payment;
 
 /**
  * @Description:
