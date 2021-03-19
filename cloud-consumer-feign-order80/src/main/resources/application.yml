@@ -11,3 +11,8 @@ ribbon:
   ReadTimeout:  5000
   #指的是建立连接后从服务器读取到可用资源所用的时间
   ConnectTimeout: 5000
+
+logging:
+  level:
+    # feign日志以什么几倍监控哪个接口
+    com.zq.springcloud.service.PaymentFeignService: debug
