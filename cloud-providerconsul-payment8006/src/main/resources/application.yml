@@ -1,0 +1,13 @@
+server:
+  port: 8006
+
+spring:
+  application:
+    name: consul-provider-payment
+  cloud:
+    consul:
+      host: 192.168.29.102
+      port: 8500
+      discovery:
+        hostname: 192.168.29.1   #配置微服务的地址。默认为本机地址
+        service-name: ${spring.application.name}
