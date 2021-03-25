@@ -23,7 +23,7 @@ spring:
           predicates:
             - Path=/payment/lb/**   #断言,路径相匹配的进行路由
             #- Cookie=username, zq
-            - Header=X-Request-Id, \d+
+            #- Header=X-Request-Id, \d+
 
 eureka:
   instance:
