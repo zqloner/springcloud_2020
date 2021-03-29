@@ -37,4 +37,18 @@ public class FlowLimitController{
         }
         return "testC------";
     }
+
+    @GetMapping("/testD")
+    public String testD() {
+        log.info("testD 异常比例");
+        int age = 10/0;
+        return "testD------测试异常比例";
+    }
+
+    @GetMapping("/testE")
+    public String testE() {
+        log.info("testE 异常数");
+        int age = 10/0;
+        return "testE------测试异常数";
+    }
 }
